@@ -1,5 +1,14 @@
 1610Spring2021
 
+This is fun!
 
+I just
 
-This is a new line for a new commit.
+Add files
+or Changes files.
+
+Stage files.
+
+Commit Files.
+
+Push Files.
