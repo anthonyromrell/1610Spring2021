@@ -697,5 +697,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ballRigidbody2D: {fileID: 1738165108}
-  speed: 3
-  jumpForce: 300
+  speed: 200
+  jumpForce: 10
