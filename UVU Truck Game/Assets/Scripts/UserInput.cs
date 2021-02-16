@@ -1,13 +1,18 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class UserInput : MonoBehaviour
 {
    public float speed = 3f;
    public float jumpForce = 20f;
-   public Rigidbody2D rigidbodyObj;
    
+   private Rigidbody2D rigidbodyObj;
    private Vector2 direction;
+
+   private void Start()
+   {
+      rigidbodyObj = GetComponent<Rigidbody2D>();
+   }
 
    private void Update()
    {
