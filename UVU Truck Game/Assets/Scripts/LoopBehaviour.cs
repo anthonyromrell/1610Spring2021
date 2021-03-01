@@ -1,18 +1,22 @@
+using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class LoopBehaviour : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public string[] playerNames;
+    
+    private IEnumerator Start()
     {
-        
-    }
+        foreach (var playerName in playerNames)
+        {
+            print(playerName);
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        while (true)
+        {
+            yield return new WaitForSeconds(1);
+            print("Hello");
+        }
     }
 }

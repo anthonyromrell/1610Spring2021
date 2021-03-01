@@ -18,7 +18,7 @@ public class UserInput : MonoBehaviour
    {
       direction.x = speed * Input.GetAxis("Horizontal");
       rigidbodyObj.AddForce(direction, ForceMode2D.Force);
-      if (Input.GetButtonDown("Jump"))
+      if (Input.GetButtonDown("Jump")) 
       {
          direction.y = jumpForce;
          rigidbodyObj.AddForce(direction, ForceMode2D.Impulse);

@@ -8,6 +8,9 @@ public class OutDated : MonoBehaviour
 {
     public Text myText; //Use this in place of GUIText
     public Image myTexture; //Use this is place of GUITexture
+
+    private Text myGUIText;
+    private Image myTexureObj;
     
     void Start()
     {
